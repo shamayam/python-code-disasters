@@ -3,6 +3,9 @@ from numpy import nan
 
 
 class Calculator:
+    """
+    Calculator allowing the functions add, subtract, multiply and divide
+    """
     def __init__(self):
         print('Welcome to this calculator!')
         print('It can add, subtract, multiply and divide numbers')
@@ -41,6 +44,9 @@ class Calculator:
 
 if __name__ == '__main__':
     calculator = Calculator()
+
+    # this variable keeps track of whether or not we should continue running the calculator
+    # it will be
     cont = ''
     while cont != 'q':
         num1 = int(input('Please choose your first number: '))
