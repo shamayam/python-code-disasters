@@ -22,6 +22,10 @@ class Calculator:
         return num1 * num2
 
     def divide(self):
+        """
+        Computes division of two numbers.
+        Throws ZeroDivisionError when attempting to divide by zero.
+        """
         try:
             return num1 / num2
         except ZeroDivisionError:
