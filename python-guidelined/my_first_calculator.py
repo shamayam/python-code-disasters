@@ -46,7 +46,6 @@ if __name__ == '__main__':
     calculator = Calculator()
 
     # this variable keeps track of whether or not we should continue running the calculator
-    # it will be
     cont = ''
     while cont != 'q':
         num1 = int(input('Please choose your first number: '))
